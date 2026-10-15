@@ -1,0 +1,19 @@
+{
+  "name": "nahw-docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Full in-depth Nahw (Arabic syntax and grammar) documentation powered by VitePress.",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "test": "node --test test/docs.test.mjs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
